@@ -1,0 +1,12 @@
+require: rubocop-rails
+
+AllCops:
+  Exclude:
+    - "bin/*"
+    - "vendor/**/*"
+    - "public/**/*"
+    - "tmp/**/*"
+    - "log/**/*"
+
+Style/Documentation:
+  Enabled: false
